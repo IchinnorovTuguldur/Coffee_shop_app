@@ -1,0 +1,112 @@
+{
+  "name": "starbuck-app",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "ios:prod": "react-native run-ios --configuration Release",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "pod": "npm install --force && cd ./ios/ && pod update && pod install "
+  },
+  "dependencies": {
+    "@adrianso/react-native-device-brightness": "^1.2.4",
+    "@gorhom/bottom-sheet": "^3",
+    "@react-native-community/art": "^1.2.0",
+    "@react-native-firebase/app": "^11.4.1",
+    "@react-native-firebase/auth": "^11.4.1",
+    "@react-native-firebase/firestore": "^11.4.1",
+    "@react-native-firebase/functions": "^12.0.0",
+    "@react-native-firebase/messaging": "^11.4.1",
+    "@react-navigation/bottom-tabs": "^5.11.10",
+    "@react-navigation/material-top-tabs": "^5.3.15",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.9",
+    "@types/styled-components-react-native": "^5.1.1",
+    "firebase-admin": "^9.8.0",
+    "formik": "^2.2.6",
+    "imask": "^6.0.7",
+    "lodash": "^4.17.21",
+    "lottie-ios": "3.1.8",
+    "lottie-react-native": "4.0.2",
+    "metro": "^0.76.7",
+    "react": "^17.0.1",
+    "react-native": "^0.64.0",
+    "react-native-animatable": "^1.3.3",
+    "react-native-barcode-builder": "^2.0.0",
+    "react-native-blurhash": "^1.1.4",
+    "react-native-circular-progress": "^1.3.7",
+    "react-native-exception-handler": "^2.10.10",
+    "react-native-fast-image": "^8.3.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-logs": "^3.0.3",
+    "react-native-maps": "^0.28.0",
+    "react-native-notification-badge": "^1.0.5",
+    "react-native-permissions": "^3.0.3",
+    "react-native-qrcode-svg": "^6.1.1",
+    "react-native-reanimated": "^2.2.0",
+    "react-native-restart": "^0.0.22",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.1.1",
+    "react-native-shared-element": "^0.7.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-svg": "^12.1.1",
+    "react-native-tab-view": "^2.16.0",
+    "react-native-text-input-mask": "^3.1.4",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-video": "^5.1.1",
+    "react-native-video-player": "^0.10.1",
+    "react-native-webview": "^11.6.2",
+    "react-use": "^17.2.4",
+    "styled-components": "^5.2.3",
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/runtime": "^7.13.17",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/react-native": "^0.63.34",
+    "@types/react-native-snap-carousel": "^3.8.3",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.24.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "prettier": "^2.2.1",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^4.2.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}

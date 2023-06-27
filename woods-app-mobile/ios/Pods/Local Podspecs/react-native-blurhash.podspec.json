@@ -1,0 +1,28 @@
+{
+  "name": "react-native-blurhash",
+  "version": "1.1.10",
+  "summary": "🖼 BlurHash is a compact representation of a placeholder for an image. This is a Native UI Module for React Native to asynchronously wrap the Blurhash implementations and make them usable in React Native. Also supports encoding!",
+  "description": "react-native-blurhash",
+  "homepage": "https://github.com/mrousavy/react-native-blurhash",
+  "license": "MIT",
+  "authors": {
+    "Marc Rousavy": "marcrousavy@hotmail.com"
+  },
+  "platforms": {
+    "ios": "9.0",
+    "tvos": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/mrousavy/react-native-blurhash.git",
+    "tag": "1.1.10"
+  },
+  "source_files": "ios/**/*.{h,c,m,swift}",
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES"
+  },
+  "dependencies": {
+    "React-Core": [
+
+    ]
+  }
+}

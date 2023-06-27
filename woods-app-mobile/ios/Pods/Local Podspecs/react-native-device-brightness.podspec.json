@@ -1,0 +1,20 @@
+{
+  "name": "react-native-device-brightness",
+  "version": "1.2.7",
+  "summary": "Screen brightness adjustment tool for React Native",
+  "license": "MIT",
+  "homepage": "https://github.com/adrianso/react-native-device-brightness#readme",
+  "authors": "Adrian So <adrian@sld.co.nz> (https://github.com/adrianso)",
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "path": "RNDeviceBrightness/"
+  },
+  "source_files": "**/*.{h,m}",
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

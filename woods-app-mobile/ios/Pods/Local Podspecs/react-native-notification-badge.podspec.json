@@ -1,0 +1,25 @@
+{
+  "name": "react-native-notification-badge",
+  "version": "1.0.5",
+  "summary": "A notification badge count manager for React Native",
+  "description": "react-native-notification-badge",
+  "homepage": "https://github.com/mrousavy/react-native-notification-badge",
+  "license": "MIT",
+  "authors": {
+    "Marc Rousavy": "marcrousavy@hotmail.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/mrousavy/react-native-notification-badge.git",
+    "tag": "1.0.5"
+  },
+  "source_files": "ios/**/*.{h,c,m,swift}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

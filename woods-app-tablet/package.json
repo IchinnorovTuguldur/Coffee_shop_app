@@ -1,0 +1,88 @@
+{
+  "name": "woods-app-tablet",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios --simulator='iPad Pro (11-inch) (3rd generation)'",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "pod": "yarn && cd ./ios/ && pod update && pod install "
+  },
+  "dependencies": {
+    "@react-native-firebase/app": "^11.4.1",
+    "@react-native-firebase/auth": "^11.4.1",
+    "@react-native-firebase/firestore": "^11.4.1",
+    "@react-native-firebase/functions": "^12.0.0",
+    "@react-native-firebase/messaging": "^11.4.1",
+    "@react-navigation/bottom-tabs": "^5.11.10",
+    "@react-navigation/material-top-tabs": "^5.3.15",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.4",
+    "@types/lodash": "^4.14.168",
+    "@types/styled-components": "^5.1.9",
+    "@types/styled-components-react-native": "^5.1.1",
+    "formik": "^2.2.6",
+    "lodash": "^4.17.21",
+    "lottie-ios": "3.1.8",
+    "lottie-react-native": "^4.0.2",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-moment": "^1.1.1",
+    "react-native": "0.64.0",
+    "react-native-animatable": "^1.3.3",
+    "react-native-blurhash": "^1.1.4",
+    "react-native-exception-handler": "^2.10.10",
+    "react-native-fast-image": "^8.3.4",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-restart": "^0.0.22",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.1.1",
+    "react-native-svg": "^12.1.1",
+    "styled-components": "^5.2.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/runtime": "^7.14.6",
+    "@react-native-community/eslint-config": "^3.0.0",
+    "@types/react-native": "^0.63.34",
+    "@types/react-native-snap-carousel": "^3.8.3",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "babel-jest": "^27.0.2",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "jest": "^27.0.4",
+    "metro-react-native-babel-preset": "^0.66.0",
+    "prettier": "2.2.1",
+    "react-test-renderer": "17.0.1",
+    "typescript": "^4.2.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "eslintConfig": {
+    "extends": "universe/native"
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    },
+    {
+      "language": "typescriptreact",
+      "autoFix": true
+    }
+  ],
+  "rnpm": {
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+module Pods_starbucksApp {
+  umbrella header "Pods-starbucksApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

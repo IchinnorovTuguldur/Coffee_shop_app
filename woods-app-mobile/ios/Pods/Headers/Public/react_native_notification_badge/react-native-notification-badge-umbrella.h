@@ -1,0 +1,1 @@
+../../../Target Support Files/react-native-notification-badge/react-native-notification-badge-umbrella.h

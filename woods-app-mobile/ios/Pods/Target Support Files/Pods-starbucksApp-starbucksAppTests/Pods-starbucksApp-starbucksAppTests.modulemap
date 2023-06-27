@@ -1,0 +1,6 @@
+module Pods_starbucksApp_starbucksAppTests {
+  umbrella header "Pods-starbucksApp-starbucksAppTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1 @@
+../../../../../node_modules/react-native-notification-badge/ios/NotificationBadgeBridge.h

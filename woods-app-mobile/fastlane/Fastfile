@@ -1,0 +1,55 @@
+fastlane_version '2.53.1'
+
+before_all do
+  ensure_git_branch
+#   ensure_git_status_clean
+  git_pull
+end
+
+platform :ios do
+    desc 'Fetch certificates and provisioning profiles'
+    lane :certificates do
+      match(app_identifier: 'nestsolutions.llc.coffee.app', type: 'development', readonly: true)
+      match(app_identifier: 'nestsolutions.llc.coffee.app', type: 'appstore', readonly: true)
+    end
+
+    desc 'Build the iOS application and submit to Test Flight.'
+    lane :beta do
+        certificates
+        increment_build_number(xcodeproj: './ios/starbucksApp.xcodeproj')
+        build_release(clean: false)
+        upload_to_testflight(
+            username: 'deployer@nestsolutions.llc',
+            app_identifier: 'nestsolutions.llc.coffee.app',
+            ipa: './build/ios/ipa/starbucksApp.ipa',
+            skip_waiting_for_build_processing: true,
+            skip_submission: true,
+            build_number: lane_context[SharedValues::BUILD_NUMBER]
+        )
+    end
+
+    private_lane :build_release do |options|
+        build_app(
+            scheme: "starbucksApp",
+            clean: options[:clean],
+            workspace: "ios/starbucksApp.xcworkspace",
+            export_method: "app-store",
+            output_directory: './build/ios/ipa',
+            export_options: {
+                method: 'IOS_METHOD',
+                signingStyle: "manual",
+                provisioningProfiles: {
+                    "nestsolutions.llc.coffee.app": "match AppStore nestsolutions.llc.coffee.app"
+                }
+            },
+        )
+    end
+
+    # desc 'Ship to Testflight.'
+    # lane :beta do
+    #     build
+    #     pilot
+    #     commit_version_bump(message: 'Bump build', xcodeproj: './ios/starbucksApp.xcodeproj')
+    #     push_to_git_remote
+    # end
+end

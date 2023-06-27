@@ -1,0 +1,58 @@
+export const Drinks = [
+  {
+    objectID: '1',
+    id: 'a',
+    price: 312,
+    name: 'Strawberry Funnel Cake Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/075fe296dd0c4395821122d872e703ae.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '2',
+    id: 'b',
+    price: 513,
+    name: 'Mocha Cookie Crumble Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/e4d9e996eb64453eb3ac7adb570c9b7b.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '3',
+    id: 'c',
+    price: 614,
+    name: 'Caramel Ribbon Crunch Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/bdc7fcf962884211ab83918d34f73393.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '4',
+    id: 'd',
+    price: 315,
+    name: 'Espresso Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/e40fe41b68ec42c0a06af692cc4b1c12.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '5',
+    id: 'e',
+    price: 316,
+    name: 'Caffè Vanilla Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/ae37d46a04064cae93f307d1b122c8fe.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '6',
+    id: 'f',
+    price: 317,
+    name: 'Caramel Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/6ab7d70c4fff435faf090a2f1a6f30d5.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '7',
+    id: 'g',
+    price: 318,
+    name: 'Coffee Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/2cf55066b3ec4547b452aebffe0870cf.jpg?impolicy=1by1_wide_1242',
+  },
+  {
+    objectID: '8',
+    id: 'h',
+    price: 319,
+    name: 'Mocha Frappuccino® Blended Beverage',
+    image: 'https://globalassets.starbucks.com/assets/fd4d97f22e8f476b874352258a3f0672.jpg?impolicy=1by1_wide_1242',
+  },
+];

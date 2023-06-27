@@ -1,0 +1,6 @@
+module react_native_blurhash {
+  umbrella header "react-native-blurhash-umbrella.h"
+
+  export *
+  module * { export * }
+}
