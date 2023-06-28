@@ -2,7 +2,7 @@
 
 This is a Starbucks-like coffee shop application built with React and TypeScript. It provides a user-friendly interface for customers to browse and order their favorite beverages and snacks.
 
-<b>Features</b>
+<h3>Features</h3>
 
 -Browse through a variety of coffee options
 -View detailed descriptions and prices of each item
@@ -12,7 +12,7 @@ This is a Starbucks-like coffee shop application built with React and TypeScript
 -Place an order with customer details 
 
 
-Installation
+<h3>Installation</h3>
 
 To run this application locally, follow these steps:
 
@@ -33,7 +33,8 @@ shell
 Copy code
 npm start
 Open your browser and visit http://localhost:3000 to access the application.
-Technologies Used
+
+<h3>Technologies Used</h3>
 
 React - JavaScript library for building user interfaces
 TypeScript - Typed superset of JavaScript that compiles to plain JavaScript
@@ -41,11 +42,11 @@ HTML - Markup language for creating web pages
 CSS - Stylesheet language for designing web pages
 
 
-License
+<b>License</b>
 
 This project is licensed under the MIT License.
 
-Contact
+<b>Contact</b>
 
 For any questions or inquiries, please reach out to the project maintainer:
 
