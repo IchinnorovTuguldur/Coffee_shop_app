@@ -17,21 +17,17 @@ This is a Starbucks-like coffee shop application built with React and TypeScript
 To run this application locally, follow these steps:
 
 Clone the repository:
-shell
-Copy code
-git clone https://github.com/your-username/starbucks-coffee-shop.git
+
+-git clone https://github.com/IchinnorovTuguldur/Coffee_shop_app.git
+
 Navigate to the project directory:
-shell
-Copy code
-cd starbucks-coffee-shop
+- cd starbucks-coffee-shop
+  
 Install the dependencies:
-shell
-Copy code
-npm install
+-npm install
+
 Start the development server:
-shell
-Copy code
-npm start
+-npm start
 Open your browser and visit http://localhost:3000 to access the application.
 
 <h3>Technologies Used</h3>
@@ -42,11 +38,11 @@ HTML - Markup language for creating web pages
 CSS - Stylesheet language for designing web pages
 
 
-<b>License</b>
+<h3>License</h3>
 
 This project is licensed under the MIT License.
 
-<b>Contact</b>
+<h3>Contact</h3>
 
 For any questions or inquiries, please reach out to the project maintainer:
 
