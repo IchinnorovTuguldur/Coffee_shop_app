@@ -1,4 +1,4 @@
-Starbucks Coffee Shop Application
+<h1>Starbucks Coffee Shop Application</h1>
 
 This is a Starbucks-like coffee shop application built with React and TypeScript. It provides a user-friendly interface for customers to browse and order their favorite beverages and snacks.
 
