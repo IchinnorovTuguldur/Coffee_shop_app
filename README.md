@@ -2,7 +2,7 @@
 
 This is a Starbucks-like coffee shop application built with React and TypeScript. It provides a user-friendly interface for customers to browse and order their favorite beverages and snacks.
 
-Features
+<b>Features</b>
 
 -Browse through a variety of coffee options
 -View detailed descriptions and prices of each item
